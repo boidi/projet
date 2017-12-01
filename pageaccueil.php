@@ -12,7 +12,8 @@
      ?>
     <h1>Bienvenue sur la page colis </h1>
     <ul>
-      <li><a href="#">Preparer un colis</a></li>
+      <!-- lien vers la page de selection des articles -->
+      <li><a href="panier.php">Preparer un colis</a></li>
       <li> <a href="#">Articles</a></li>
       <li> <a href="#">historiques des colis envoyés</a></li>
     </ul>
@@ -27,6 +28,10 @@ else
     echo '<p>Mot de passe incorrect</p>';
 }
 ?>
+<div class="test">
+  <p>paragraphe test</p>
+
+</div>
 
   </body>
 </html>
