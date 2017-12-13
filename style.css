@@ -1,9 +1,29 @@
 .container{
 
 }
-
 form{
   margin-left: 200px;
   width: 350px;
   height: 300px;
+  text-align: center;
+  border: 1px solid green;
+    color: green;
+}
+
+.titre{
+  margin-left: 30px
+  padding-top: 50px;
+  color: red
+}
+table,th,td{
+  border: 1px solid black;
+
+}
+table{
+  width: 50%;
+  border-collapse: collapse;
+
+}
+.tableau{
+  margin-left: 100px;
 }
